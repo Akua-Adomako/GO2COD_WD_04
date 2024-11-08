@@ -114,7 +114,8 @@ body {
 
 @media (max-width: 440px) {
   .gallery{
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+      gap: 5px;
   }
 }
 
